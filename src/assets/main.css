@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 30px;
+}
+@font-face {
+  font-family: 'Circe';
+  src: local('Circe'), local('Circe'),
+    url('./fonts/circe/circe.woff2') format('woff2'),
+    url('./fonts/circe/circe.woff') format('woff'),
+    url('./fonts/circe/circe.ttf') format('ttf');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Krona One', sans-serif;
+  src: local('Krona One'), local('Krona One'),
+    url('./fonts/KronaOne/KronaOne-Regular.ttf') format('ttf');
+  font-style: normal;
+}
