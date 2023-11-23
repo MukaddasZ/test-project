@@ -1,5 +1,7 @@
 <template>
   <div class="banner">
+    <img src="@/assets/bubble.svg" alt="bubble" class="banner-bubble" />
+
     <div class="banner-content">
   <div class="banner-logo">Fancy's</div>
   <div class="banner-description1">cкоро открытие спа-салона osha в астане</div>
@@ -111,5 +113,10 @@ margin-left: 86px;
 }
 .banner-leftside, .banner-rightside {
   cursor: pointer;
+}
+.banner-bubble {
+position: absolute;
+right: -250px;
+top: -250px;
 }
   </style>

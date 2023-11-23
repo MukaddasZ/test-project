@@ -4,6 +4,8 @@
     <img src="@/assets/menu-line.svg" alt="menu-line" class="menu-line"/>
 <p>меню</p>
 </div>
+<!-- <div class="header-bubble"> -->
+<!-- </div> -->
 </div>
 
 
@@ -53,8 +55,7 @@ color: #37384C;
  text-transform: uppercase;
  line-height: 50.30px;
  word-wrap: break-word;
-
-
 }
+
 
 </style>
