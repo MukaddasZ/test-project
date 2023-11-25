@@ -59,6 +59,7 @@ export default {
   align-items: center;
   margin-left: 80px;
 
+
 }
 .menu-list a {
   color: #000;

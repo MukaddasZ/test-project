@@ -2,6 +2,8 @@
 import HeaderMenu from './components/HeaderMenu.vue'
 import Banner from './components/Banner.vue'
 import Categories from './components/Categories.vue'
+import CategoriesItems from './components/CategoriesItems.vue'
+import BeautySaloon from './components/BeautySaloon.vue'
 import MenuList from './components/MenuList.vue'
 
 </script>
@@ -16,7 +18,8 @@ import MenuList from './components/MenuList.vue'
   <main>
     <Banner />
     <Categories />
-       <MenuList />
+    <BeautySaloon />
+    <!-- <MenuList /> -->
   </main>
 </template>
 
