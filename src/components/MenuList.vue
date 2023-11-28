@@ -54,6 +54,7 @@ export default {
 
 <style scoped>
 .menu-list {
+  margin-top: 112px;
   display: flex;
   gap: 8px;
   align-items: center;
@@ -72,10 +73,11 @@ font-weight: 400;
 line-height: 22.853px; /* 142.829% */
 text-transform: uppercase;
  flex-shrink: 0;
-border-radius: 58px;
-border: 2px solid #37384C;
 text-decoration: none;
 /* height: 54px; */
+border-radius: 87px;
+border: 1px solid rgba(55, 56, 76, 0.21);
+background: rgba(255, 255, 255, 0.00);
 padding: 18px 30px;
 }
 /* .menu-list a:first-child {

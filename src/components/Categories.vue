@@ -68,9 +68,7 @@ export default {
     flex-direction: column;
     align-items: center;
     margin-top: -188px;
-    /* z-index: 10; */
     position: relative;
-height: 843px;
 flex-shrink: 0;
 }
 .categories-line {

@@ -10,7 +10,7 @@ import MenuList from './MenuList.vue';
 <style>
 .beauty-saloon{
     box-sizing: border-box;
-  margin-top: -50px;
+
 }
 .saloon-title {
 color: #37384C;
@@ -22,6 +22,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 50.3px; /* 100.6% */
 text-transform: uppercase;
-margin: auto 0;
+text-align: center;
+margin-top: 120px;
 }
 </style>

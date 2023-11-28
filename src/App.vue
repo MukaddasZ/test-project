@@ -19,7 +19,7 @@ import MenuList from './components/MenuList.vue'
     <Banner />
     <Categories />
     <BeautySaloon />
-    <!-- <MenuList /> -->
+    <MenuList />
   </main>
 </template>
 

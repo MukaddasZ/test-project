@@ -27,13 +27,14 @@ const props = defineProps({
    align-items: center;
    gap: 18px;
     box-sizing: border-box;
+    cursor: pointer;
     
 }
 .item-img {
 width: 199.442px;
 height: 199.442px;
 flex-shrink: 0;
-border-radius: 137.116px;
+border-radius: 137.116px; 
 /* border: 4px solid #D8EDFD; */
 background: lightgray 0px -83.57px / 100% 150.47% no-repeat, rgba(255, 255, 255, 0.17);
 }
