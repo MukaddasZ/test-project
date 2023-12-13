@@ -5,14 +5,23 @@
         <div class="categories-content container">
             <img src="@/assets/left-slide.svg" alt="left-slide" class="categories-left-slide" />
             <div class="categories-title">
-            <p>Категории</p>
+                <p>
+                    <span>К</span>
+                    <span>А</span>
+                    <span>Т</span>
+                    <span>Е</span>
+                    <span>Г</span>
+                    <span class="starred">О</span>
+                    <span>Р</span>
+                    <span>И</span>
+                    <span>И</span>
+                </p>
             </div>
             <img src="@/assets/right-slide.svg" alt="right-slide" class="categories-right-slide" />
         </div>
         <div class="categories-items">
         <CategoriesItems
         v-for="item of items"
-        :key="i"
         :img="item.img"
         :title="item.title"
       />
@@ -100,6 +109,22 @@ font-style: normal;
 font-weight: 400;
 line-height: 50.3px; /* 100.6% */
 text-transform: uppercase;
+}
+.categories-title .starred{
+    position: relative;
+}
+.categories-title .starred::after {
+    background: url('./src/assets/star.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    top: -10px;
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 11px;
+    top: 23px;
 }
 .categories-bubble {
     position: absolute;
